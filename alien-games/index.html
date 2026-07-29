@@ -1,0 +1,78 @@
+<!DOCTYPE html>  <!-- esto declara el tipo de documento html5 -->
+
+<html lang="en"> <!-- inicia el documento en ingles -->
+
+<head>    <!-- configuraciones de mi pagina  -->
+
+   <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alien Games - Inicio</title>
+    <link rel="stylesheet" href="semana2 css/styles.css">
+
+</head>
+<body>
+
+    <!-- HEADER con logo -->
+    <header>
+        <img src="alien.jpg" alt="Logo Alien Games" width="80">
+        <h1>Alien Games</h1>
+    </header>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pages/juegos.html">Juegos</a></li>
+            <li><a href="pages/galeria.html">Galería</a></li>
+            <li><a href="pages/contactos.html">Contactos</a></li>
+            <li><a href="pages/registrar.html">Registrarse</a></li>
+        </ul>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <section>
+            <h2>Bienvenido a mi primera página web</h2>
+            <p>Acá se va a desarrollar lo aprendido en clases. Este es el sitio de Alien Games.</p>
+            <img src="alien.jpg" alt="Imagen de alien" width="300">
+        </section>
+
+        <!-- formulario de login -->
+        <section>
+            <h2>Iniciar Sesión</h2>
+            <form action="/formulario" method="post">
+                <label for="usuario">Usuario</label>
+                <input id="usuario" type="text" placeholder="Escribe tu usuario" name="usuario">
+                <br><br>
+
+                <label for="password">Password</label>
+                <input id="password" type="password" placeholder="Escribe tu contraseña" name="password">
+                <br><br>
+
+                <button type="submit">Iniciar Sesión</button>
+                <br><br>
+
+                <p style="text-align: center; margin-top: 15px;">
+                    ¿No tienes cuenta? 
+                    <a href="pages/registrar.html" style="color: #007bff; text-decoration: none; font-weight: bold;">
+                        Registrarme
+                    </a>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Alien Games - Todos los derechos reservados</p>
+        <p>
+            Seguinos en: 
+            <a href="#">Instagram</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Facebook</a>
+        </p>
+    </footer>
+
+</body>
+</html>
