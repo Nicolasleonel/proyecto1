@@ -1,0 +1,104 @@
+/* ===== TIPOGRAFÍA (Google Fonts) ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* ===== BASE ===== */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5e8d3; /* Fondo crema */
+    color: #3c2f2f;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* ===== PALETA DE COLORES ===== */
+/* Primario:   #3c2f2f  (marrón café oscuro) */
+/* Secundario: #c9a66b  (caramelo) */
+/* Acento:     #6f4e37  (café medio) */
+
+/* ===== HEADER ===== */
+header {
+    background-color: #3c2f2f;
+    color: #f5e8d3;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.titulo-principal {
+    color: #c9a66b;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* ===== NAVEGACIÓN ===== */
+nav {
+    background-color: #6f4e37;
+    padding: 12px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 18px;
+}
+
+nav ul li a {
+    color: #f5e8d3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #c9a66b;
+}
+
+/* ===== MAIN Y SECCIONES ===== */
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.titulo-secundario {
+    color: #3c2f2f;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.titulo-terciario {
+    color: #6f4e37;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+section {
+    background-color: #fff;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #3c2f2f;
+    color: #f5e8d3;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+}
